@@ -14,8 +14,8 @@
 
 \definecolor{highlight}{RGB}{0,0,0}
 
-\newcommand{\name}[1]{\begin{center}\section*{\LARGE \color{highlight} #1}\vspace{-0.8cm}\end{center}}
-\newcommand{\topinfo}[1]{\begin{center}\vspace{-0.1cm}#1\vspace{-0.3cm}\end{center}}
+\newcommand{\name}[1]{\begin{center}\section*{\LARGE \color{highlight} #1}\vspace{-2em}\end{center}}
+\newcommand{\topinfo}[1]{\begin{center}#1\vspace{-1.5em}\end{center}}
 \newcommand{\resumesection}[1]{
 	\vspace{-0.5cm}
 	\section*{\color{highlight}#1}
@@ -25,3 +25,6 @@
 }
 
 \renewcommand{\familydefault}{\sfdefault}
+
+\newtoggle{swe}
+\newtoggle{quant}
